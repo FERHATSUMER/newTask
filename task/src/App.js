@@ -1,14 +1,10 @@
 import './App.css';
-import CharactersList from './pages/CharactersList';
-
-
+import Header from './components/header/Header';
 
 function App() {
   return (
-    <div className="App">
-<h1>Task</h1>
-    <CharactersList />
-
+    <div>
+    <Header />
     </div>
   );
 }

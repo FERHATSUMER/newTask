@@ -1,0 +1,32 @@
+/* header.css */
+
+.header-container {
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-marker {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.add-movie {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.add-movie:hover {
+  background-color: #fff;
+  color: #333;
+}
